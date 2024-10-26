@@ -1,8 +1,8 @@
 from huggingface_hub import InferenceClient
 
 # Initialize two models
-model_a = InferenceClient("microsoft/Phi-3.5-mini-instruct", token="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")
-model_b = InferenceClient("microsoft/Phi-3.5-mini-instruct", token="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")
+model_a = InferenceClient("microsoft/Phi-3.5-mini-instruct", token="apikey1")
+model_b = InferenceClient("microsoft/Phi-3.5-mini-instruct", token="apikey2")
 
 # Initialize conversation history and asked questions
 conversation_history = []
