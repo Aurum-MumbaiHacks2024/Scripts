@@ -1,0 +1,7 @@
+pandas
+numpy
+csv
+fuzzywuzzy
+tensorflow
+scikit-learn
+huggingface_hub
